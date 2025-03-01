@@ -16,7 +16,7 @@ app = FastAPI()
 
 # templates and static files
 templates = Jinja2Templates(directory="templates")
-app.mount("/static", StaticFiles(directory="static"), name="static")
+
 
 # Stripe
 stripe.api_key = os.getenv('STRIPE_SECRET_KEY')
