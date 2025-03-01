@@ -26,17 +26,3 @@ This project implements a subscription-based checkout system using Stripe Checko
 
 5. Visit http://localhost:8000 to test the checkout flow
 
-## Features
-
-- FastAPI backend with Stripe Checkout integration
-- Dynamic tax calculation using Kintsugi Tax API
-- Responsive frontend with modern UI
-- Success and cancellation pages
-- Environment-based configuration
-
-## API Endpoints
-
-- `GET /`: Home page with subscription details
-- `POST /create-checkout-session`: Creates a Stripe checkout session with tax
-- `GET /success`: Success page after successful subscription
-- `GET /cancel`: Cancellation page if checkout is abandoned
