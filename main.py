@@ -30,8 +30,8 @@ KINTSUGI_HEADERS = {
 }
 
 # Constants
-SUBSCRIPTION_PRICE_ID = "price_1QxU7SFjcd67I34X3X5XaHo0"  # Replace with your Stripe Price ID
-BASE_PRICE = 1000  # $10.00 in cents
+SUBSCRIPTION_PRICE_ID = "price_1QxU7SFjcd67I34X3X5XaHo0"  
+BASE_PRICE = 1000 
 
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
